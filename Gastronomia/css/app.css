@@ -1,0 +1,59 @@
+
+.img-fondo {
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+}
+
+
+.contenedor {
+	background-color: chocolate;
+	opacity: 0.85;
+}
+
+
+#titulo {
+	color: white;
+	border-right: solid 2px white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: cursive;
+    font-size: 2.2em;
+}
+
+.titulo1 {
+    text-align: left;
+    font-size: 2.3em !important;
+    
+    
+}
+
+.subtitulo1 {
+	text-align: right;
+}
+
+
+.secciones {
+	border-top: solid 2px white;
+}
+
+/*clase de busqueda*/
+#busqueda {
+	background-color: blanchedalmond;	
+}
+
+/*clase de contenido*/
+.contenido {
+	background-color: lightgreen;
+}
+
+.comentarios {
+	border-top: solid 2px white;
+}
+
+.usuario {
+	background-color: lightgreen;
+}
+
+/*clase de imagenes*/
