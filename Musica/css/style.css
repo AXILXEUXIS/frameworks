@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.logo-img {
+    margin: 30px 10px 0px 30px;
+}
+
+.redes {
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+.busqueda {
+    display: none;
+}
+	
+.contenido {
+    margin: 5px 10px;
+}
+	
+
+	
+
+
+
