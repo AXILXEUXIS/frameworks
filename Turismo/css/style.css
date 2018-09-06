@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 
+#navbar1 {
+	width: 100%;
+}
+
 
 .titulo1 {
         font-size: 3em;
@@ -30,6 +34,8 @@
 
 .button1top{
 	margin-right: 5px;
+	margin-left: 5px;
+	font-size: 10px;
 }
 
 .social {
@@ -47,9 +53,25 @@
 
 
 .descripcion {
-	
+	font-size: 16px;
+	text-align: justify;
 }
 
+
+.caja1 {
+	padding: 10px 10px 10px 10px;
+}
+
+
+.botonenviar {
+	padding-top: -20px;
+	background-color: red;
+
+}
+
+.marco {
+	padding: 20px 20px 20px 20px;
+}
 
 
 @media all and (max-width: 900px){
@@ -85,9 +107,10 @@
 }
 
 @media screen and (min-width: 901px){
+
 	#btn1,#btn2,#btn3,#btn4{
-		width: 17%;
-		font-size: 12px;
+		width: 18%;
+		font-size: 10px;
 		
 	}
 	
@@ -100,7 +123,7 @@
 	}
 	
 
-	#macizo{
+	#villa{
 	width: auto;
 	}
 	
