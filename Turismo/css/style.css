@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+
+.titulo1 {
+        font-size: 3em;
+		margin-top: 6%;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Baloo Tammudu', cursive;
+
+}
+
+#macizo{
+	margin-top: 5%;
+	padding-right: 1%;
+	width: 50%;
+}
+
+
+#nombre,#mail{
+    border-bottom: 1px solid white;
+   }
+
+.logo {
+	width: 35%;
+}
+
+
+.button1top{
+	margin-right: 5px;
+}
+
+.social {
+	width: 70%;
+}
+
+
+@media all and (max-width: 900px){
+
+	.logo {
+	width: 100%;
+	margin-top: 40px;
+	text-transform: uppercase;
+	}
+
+	#btn1,#btn2,#btn3,#btn4 {
+		width: 20%;
+	}
+	
+	#macizo {
+	width: auto;
+	}
+	
+	.titulo1 {
+        font-size: 2.5em;
+		margin-top: 5%;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	body {
+	background: url("../img/back1.jpg");
+	background-attachment: fixed;
+	}
+	
+	#bq6,#bq7{
+		margin-top: 4%;
+	}
+
+}
+
+@media screen and (min-width: 901px){
+	#btn1,#btn2,#btn3,#btn4{
+		width: 17%;
+		font-size: 12px;
+		
+	}
+	
+	body{
+	background: url("../img/back1.jpg");
+	background-attachment: fixed;
+    background-size: cover;
+	background-size: 100%;
+
+	}
+	
+
+	#macizo{
+	width: auto;
+	}
+	
+	.logo{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+			
+	}	
+
+}
+
